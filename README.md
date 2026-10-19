@@ -30,7 +30,7 @@ avec **deux moteurs distincts**, au choix selon le besoin :
 ```
 photo upscale/
 │
-├─ photoUp.py
+├─ photoUp2.py
 ├─ README.md
 ├─ realesrgan-ncnn-vulkan.exe
 ├─ models/
@@ -89,7 +89,7 @@ pip install opencv-python mediapipe pillow numpy
 Lancer l’application :
 
 ```bat
-python photoUp.py
+python photoUp2.py
 ```
 
 ---
@@ -174,7 +174,7 @@ Si une image est générée → SeedVR2 est opérationnel.
 
 ```bat
 venv\Scripts\activate
-python photoUp.py
+python photoUp2.py
 ```
 
 ---

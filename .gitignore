@@ -1,0 +1,16 @@
+# Environnements Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Binaires et modèles (téléchargés séparément, voir README)
+realesrgan-ncnn-vulkan.exe
+*.exe
+*.dll
+models/
+seedvr2/
+
+# Images traitées et journaux
+output/
+*.log
